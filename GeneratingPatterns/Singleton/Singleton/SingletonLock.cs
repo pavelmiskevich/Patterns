@@ -6,8 +6,8 @@ namespace Singleton
 {
     class SingletonLock
     {
-        private static SingletonLock instance;
-        private static object syncRoot = new Object();
+        private static SingletonLock _instance;
+        private static object syncRoot = new object();
 
         public string Date { get; private set; }
 
@@ -18,15 +18,15 @@ namespace Singleton
 
         public static SingletonLock getInstance()
         {
-            if (instance == null)
+            if (_instance == null)
             {
                 lock (syncRoot)
                 {
-                    if (instance == null)
-                        instance = new SingletonLock();
+                    if (_instance == null)
+                        _instance = new SingletonLock();
                 }
             }
-            return instance;
+            return _instance;
         }
     }
 }
