@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "StructuralPatter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "StructuralPatterns\Facade\Facade.csproj", "{4226970B-5D66-4A40-884A-379258A21176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "BehaviouralPatterns\TemplateMethod\TemplateMethod.csproj", "{41F28005-C1E3-4224-9A9E-839D8F7830D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "BehaviouralPatterns\TemplateMethod\TemplateMethod.csproj", "{41F28005-C1E3-4224-9A9E-839D8F7830D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "StructuralPatterns\Composite\Composite.csproj", "{255B46C7-05FE-4A81-A655-58CF01F489EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{41F28005-C1E3-4224-9A9E-839D8F7830D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F28005-C1E3-4224-9A9E-839D8F7830D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F28005-C1E3-4224-9A9E-839D8F7830D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255B46C7-05FE-4A81-A655-58CF01F489EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255B46C7-05FE-4A81-A655-58CF01F489EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255B46C7-05FE-4A81-A655-58CF01F489EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255B46C7-05FE-4A81-A655-58CF01F489EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{FA428FF4-9EA8-4C26-AD1A-DE9BB1BA932F} = {FD02AE2D-BDE3-407B-A2E9-8FF3F3FE1620}
 		{4226970B-5D66-4A40-884A-379258A21176} = {FD02AE2D-BDE3-407B-A2E9-8FF3F3FE1620}
 		{41F28005-C1E3-4224-9A9E-839D8F7830D5} = {84B04EA3-95C1-4573-B35E-EA4318B6E404}
+		{255B46C7-05FE-4A81-A655-58CF01F489EF} = {FD02AE2D-BDE3-407B-A2E9-8FF3F3FE1620}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2453E27-6EDA-4EC7-881B-026236B96C03}
